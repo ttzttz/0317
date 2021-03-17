@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>二輪的聲音</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img width="150" height="100" src="1.png">
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                </li>
+                
+            </ul>
+            
+        </div>
+    </nav>
+
+ 
+
+    <div style="margin: 30px;">
+        <form action="check.php" method="post">
+            <div class="form-group">
+                <label for="">性別</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="sex" id="" value="M">
+                        男性
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="sex" id="" value="W">
+                        女性
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">目前騎的車種</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="a" id="" value="M">
+                        速可達
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="a" id="" value="W">
+                        檔車
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">呈上題,車種的排氣量</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="c" id="" value="M">
+                        白牌
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="c" id="" value="W">
+                        黃牌
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="c" id="" value="W">
+                        紅牌
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">是否會騎重機</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="yn" id="" value="M">
+                        會
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="yn" id="" value="W">
+                        不會
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="yn" id="" value="W">
+                        略懂
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">對重機的印象</label>
+                <textarea class="form-control" name="msg" id="msg" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="">是否知道多少CC數是黃牌或紅牌</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="cc" id="" value="M">
+                        200-500cc(黃牌)500cc以上(紅牌)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="cc" id="" value="W">
+                        250-550cc(黃牌)550cc以上(紅牌)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="cc" id="" value="W">
+                        300-600cc(黃牌)600cc以上(紅牌)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">是否贊成重機上國道</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="ny" id="" value="M">
+                        是
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="ny" id="" value="W">
+                        否
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">為什麼贊成/不贊成</label>
+                <textarea class="form-control" name="msg" id="msg" rows="3"></textarea>
+            </div>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="index4.html" role="button">送出</a>
+            </p>
+            
+</body>
+
+</html>
